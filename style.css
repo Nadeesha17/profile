@@ -1,0 +1,108 @@
+/* TODO: design your profile with CSS */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+h2 {
+  color: #7ECE90;
+}
+
+body {
+  color: #57607d;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+}
+
+a {
+  text-decoration: none;
+  font-size: smaller;
+}
+
+#LWButton {
+  background-color: #6c72e0;
+  color: white;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin-top: 8px;
+  border-radius: 4px;
+}
+
+#LWButton:hover {
+  background-color: black;
+}
+
+h1, h2, a {
+  font-family: "Roboto", serif;
+}
+
+img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+}
+
+.card-white{
+background: white;
+padding: 30px;
+border-radius: 4px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+text-align: center;
+width: 650px;
+margin: 0 auto;
+margin-top: 32px;
+}
+
+.list-inline li {
+  text-decoration: none;
+  display: inline;
+  font-size: 45px;
+
+}
+
+i {
+  color: #e6e6e6;
+}
+
+i:hover {
+  color: black;
+}
+
+.list-inline {
+  padding: 0;
+  list-style: none;
+  padding-left: 0px;
+}
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  body {
+    font-size: 14px;
+  }
+}
